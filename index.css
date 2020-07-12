@@ -95,8 +95,8 @@ h2:after {
     border: 2px solid rgba(0, 0, 0, 0);
     background: rgba(230, 230, 230, 0.6);
     font-size: 1.1rem;
-    margin-bottom: 22px;
     transition: .3s;
+    margin-bottom: 22px;
 
 }
 
@@ -112,6 +112,27 @@ h2:after {
 
 .area {
     min-height: 150px;
+}
+
+
+.validityname {
+    display: none;
+    margin-bottom: 17px;
+    text-align: start;
+    font-size: 0.85em;
+    color: red;
+    transition: .5s ease-in-out;
+
+}
+
+.validityemail {
+    display: none;
+    margin-bottom: 17px;
+    text-align: start;
+    font-size: 0.85em;
+    color: red;
+    transition: 1s ease-in-out;
+
 }
 
 .btn {
